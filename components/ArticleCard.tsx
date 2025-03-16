@@ -20,11 +20,11 @@ const ArticleCard = ({ post }: { post: PostType }) => {
         </Link>
       </div>
       <h3 className="text-xl font-semibold mb-2 hover:text-blue-800 text-gray-700">
-        <Link href={post.id}>{post.title}</Link>
+        <Link href={'/${post.id}'}>{post.title}</Link>
       </h3>
       <p className="text-gray-600 mb-4">{post.excerpt}</p>
       <Link
-        href={post.id}
+        href={'/${post.id}'}
         className="text-blue-700 hover:text-blue-900 font-medium"
       >
         Read more →
