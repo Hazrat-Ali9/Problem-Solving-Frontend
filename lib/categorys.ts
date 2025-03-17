@@ -1,8 +1,15 @@
-export const categorys : Category[] = [
+export const categorys: Category[] = [
   {
     id: 1,
     name: "All",
     slug: "/articles",
+  },
+  {
+    id: 22,
+    name: "ICPC (International Collegiate Programming Contest)",
+    slug: "/category/icpc",
+    path: "icpc",
+    image: "/category/icpg.png",
   },
   {
     id: 2,
@@ -17,7 +24,8 @@ export const categorys : Category[] = [
     slug: "/category/hackerrankmath",
     path: "hackerrankmath",
     image: "/category/hackerrank-math.jpeg",
-  },{
+  },
+  {
     id: 8,
     name: "Data Structures & Algorithms",
     slug: "/category/datastuctures",
@@ -54,11 +62,10 @@ export const categorys : Category[] = [
   },
 ];
 
-
 export interface Category {
   id: number;
   name: string;
   slug: string;
   image?: string;
-  path?: string
+  path?: string;
 }

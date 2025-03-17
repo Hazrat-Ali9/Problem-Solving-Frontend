@@ -1,5 +1,5 @@
 import type { NextConfig } from "next";
-// next config
+
 const nextConfig: NextConfig = {
   /* config options here */
   typescript: {
@@ -7,7 +7,20 @@ const nextConfig: NextConfig = {
   },
   eslint: {
     ignoreDuringBuilds: true,
-  }
+  },
+  async headers() {
+    return [
+      {
+        source: "/(.*)", // Match all routes
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "no-store", // Disable caching globally
+          },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;

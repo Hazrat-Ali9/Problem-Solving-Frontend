@@ -3,5 +3,3 @@ const config = {
 };
 
 export default config;
-
-// Postcss config

@@ -33,9 +33,10 @@ export async function getBlogs(max?: number, lastDoc?: any): Promise<any> {
   try {
     const maxLimit = max || 10; // Number of blogs per page
 
+    // Query to order by 'createdAt' in descending order (latest first)
     let blogsQuery = query(
       collection(db, "blogs"),
-      orderBy("createdAt"),
+      orderBy("createdAt", "desc"), // Ensure descending order
       limit(maxLimit)
     );
 
@@ -54,19 +55,29 @@ export async function getBlogs(max?: number, lastDoc?: any): Promise<any> {
       ...doc.data(),
     }));
 
+    // Return both the blogs and the last document for pagination
     return blogs;
   } catch (error) {
     console.error("Error fetching blogs:", error);
     throw error;
   }
 }
+
 export async function getAllBlogs(): Promise<any> {
   try {
-    const blogsSnapshot = await getDocs(collection(db, BLOGS));
+    // Query to order blogs by 'createdAt' in descending order (newest first)
+    const blogsQuery = query(
+      collection(db, "blogs"),
+      orderBy("createdAt", "desc") // Order by 'createdAt' in descending order
+    );
+
+    const blogsSnapshot = await getDocs(blogsQuery);
+
     const blogs = blogsSnapshot.docs.map((doc) => ({
       id: doc.id,
       ...doc.data(),
     }));
+
     return blogs;
   } catch (error) {
     console.error("Error fetching blogs:", error);

@@ -8,7 +8,7 @@ import { PostType } from "@/lib/posts";
 import SearchBar from "@/components/SearchBar";
 
 async function App() {
-  const blogs: PostType[] = await getBlogs();
+  const blogs: PostType[] = await getBlogs(6);
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}

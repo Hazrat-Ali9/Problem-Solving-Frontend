@@ -4,7 +4,9 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer/Footer";
 import { Toaster } from "react-hot-toast";
-// Layout tsx
+
+export const dynamic = "force-dynamic";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -44,7 +46,7 @@ export const metadata: Metadata = {
         alt: "Hazrat Ali Logo",
       },
     ],
-  }
+  },
 };
 
 export default function RootLayout({

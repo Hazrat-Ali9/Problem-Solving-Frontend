@@ -7,7 +7,7 @@ export const metadata = {
 };
 const page = () => {
   return (
-    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-20 lg:p-0 p-4">
+    <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:px-0 px-4 lg:py-20 py-10">
       {categorys.slice(1).map((category: Category) => (
         <CategoryCard key={category.id} category={category} />
       ))}

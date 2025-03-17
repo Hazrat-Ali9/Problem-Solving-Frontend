@@ -9,7 +9,8 @@ export const generateMetadata = async ({
 }: {
   params: { pid: string };
 }) => {
-  const post: PostType = await getSingleBlog(params.pid);
+  const { pid } = await params;
+  const post: PostType = await getSingleBlog(pid);
   if (!post) {
     return {
       title: "Page not found",
@@ -31,7 +32,8 @@ export const generateMetadata = async ({
 };
 
 async function SingleArticle({ params }: { params: { pid: string } }) {
-  const post: PostType = await getSingleBlog(params.pid);
+  const { pid } = await params;
+  const post: PostType = await getSingleBlog(pid);
   if (!post) {
     return (
       <h1 className="text-center text-2xl font-bold text-gray-600 mt-10">
