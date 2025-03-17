@@ -32,5 +32,5 @@ const ArticleCard = ({ post }: { post: PostType }) => {
     </article>
   );
 };
-
+// Article Cards 
 export default ArticleCard;
