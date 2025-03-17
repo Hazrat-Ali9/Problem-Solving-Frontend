@@ -58,6 +58,7 @@ const Menus = () => {
   if (loading) {
     return <Spin size="large" fullscreen />;
   }
+  // Navbar tsx
   return (
     <div className="flex lg:flex-row flex-col gap-y-4 lg:items-center items-start p-5 lg:p-0 space-x-4">
       <Link href="/" className="hover:text-blue-400 transition-colors">
