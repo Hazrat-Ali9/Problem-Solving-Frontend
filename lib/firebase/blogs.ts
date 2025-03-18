@@ -62,7 +62,7 @@ export async function getBlogs(max?: number, lastDoc?: any): Promise<any> {
     throw error;
   }
 }
-
+// Blog ts
 export async function getAllBlogs(): Promise<any> {
   try {
     // Query to order blogs by 'createdAt' in descending order (newest first)
