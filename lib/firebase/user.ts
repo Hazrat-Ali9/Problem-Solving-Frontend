@@ -35,6 +35,7 @@ export const getAllUsers = async (): Promise<any> => {
     throw error;
   }
 };
+// User TS
 export const getUser = async (uid: string) => {
   const docRef = doc(db, USERS, uid);
   const docSnap = await getDoc(docRef);
