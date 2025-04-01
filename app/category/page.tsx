@@ -2,8 +2,8 @@ import { Category, categorys } from "@/lib/categorys";
 import React from "react";
 import CategoryCard from "./_UI/CategoryCard";
 export const metadata = {
-  title: "Categories - Hazrat Ali Problem Solving Website",
-  description: "Categories of Hazrat Ali Problem Solving Website",
+  title: "Categories - Hazrat Ali Problem Solving",
+  description: "Categories of Hazrat Ali Problem Solving",
 };
 const page = () => {
   return (
