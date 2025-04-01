@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Terms & Conditions - Hazrat Ali Problem Solving Website",
+  title: "Terms & Conditions - Hazrat Ali Problem Solving",
   description:
     "Read our terms and conditions for using Hazrat Ali Problem Solving Website",
 };
