@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-  title: "Hazrat Ali - Problem Solving Website",
+  title: "Hazrat Ali - Problem Solving",
   description:
     "Hazrat Ali is a platform for aspiring problem solvers and developers to sharpen their coding skills.",
   openGraph: {
