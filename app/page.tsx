@@ -16,7 +16,7 @@ async function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-bold mb-4">
-              Welcome to Hazrat Ali, <br /> Problem Solving Website
+              Welcome to Hazrat Ali, <br /> Problem Solving
             </h1>
             <p className="text-base text-gray-300 max-w-4xl mx-auto text-center">
               Welcome to Hazrat Ali, Problem Solving Website “At Hazrat Ali, we
