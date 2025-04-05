@@ -86,7 +86,7 @@ const Menus = () => {
         href="/achievement"
         className="hover:text-blue-400 transition-colors"
       >
-        Aachievements
+        Achievements
       </Link>
       {!user ? (
         <Link
