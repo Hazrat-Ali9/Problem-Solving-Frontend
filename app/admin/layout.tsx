@@ -4,6 +4,7 @@ import { getUserByEmail } from "@/lib/firebase/user";
 import { Spin } from "antd";
 import React, { useEffect } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
+// Layout tsx 
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   const [user, loading, error] = useAuthState(auth);
