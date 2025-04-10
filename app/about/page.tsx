@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-
+// Page tsx
 const page = () => {
   return (
     <div className="max-w-7xl mx-auto py-10">
