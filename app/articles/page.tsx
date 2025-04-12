@@ -7,7 +7,7 @@ export const metadata = {
   title: "All Articles - Hazrat Ali Problem Solving",
   description: "Read All Articles Hazrat Ali Problem Solving Website.",
 };
-
+// Articles {Pages}
 const page = async () => {
   const posts = await getAllBlogs();
   return (
