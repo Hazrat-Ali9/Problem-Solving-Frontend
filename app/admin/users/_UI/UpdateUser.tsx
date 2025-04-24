@@ -2,7 +2,7 @@ import { updateUser } from "@/lib/firebase/user";
 import { Button, Form, Input, Select } from "antd";
 import React from "react";
 import toast from "react-hot-toast";
-
+// Update User Tsx 
 const UpdateUser = ({ record }: { record: any }) => {
   console.log(record);
   const onFinish = (values: any) => {
