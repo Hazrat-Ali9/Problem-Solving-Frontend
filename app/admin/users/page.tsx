@@ -3,7 +3,7 @@ import { getAllUsers } from "@/lib/firebase/user";
 import { Button, Form, Input, Popover, Select, Table } from "antd";
 import React, { useEffect, useState } from "react";
 import UpdateUser from "./_UI/UpdateUser";
-
+// Get All User 
 const Page = () => {
   const [users, setUsers] = useState([]);
   useEffect(() => {
