@@ -1,5 +1,5 @@
 'use client';
-
+// Forget Page
 import { forgotPassword } from "@/lib/firebase/authService";
 import Link from "next/link";
 import toast from "react-hot-toast";
