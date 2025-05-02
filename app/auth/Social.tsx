@@ -79,5 +79,5 @@ const Social = () => {
     </button>
   );
 };
-
+// Social tsx
 export default Social;
