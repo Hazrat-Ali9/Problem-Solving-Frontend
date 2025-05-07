@@ -3,7 +3,7 @@ export const metadata = {
   description:
     "Learn about how we collect and protect your data at Hazrat Ali Problem Solving Website.",
 };
-// Privacy page
+// privacy policy 
 export default function PrivacyPage() {
   return (
     <div className="container mx-auto max-w-4xl px-4 py-5">
