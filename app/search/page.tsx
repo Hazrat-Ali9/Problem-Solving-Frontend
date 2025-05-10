@@ -7,7 +7,7 @@ import Sidebar from "@/components/Sidebar/Sidebar";
 import { getAllBlogs } from "@/lib/firebase/blogs";
 import ArticleCard from "@/components/ArticleCard";
 import { PostType } from "@/lib/posts";
-
+// UI Page
 
 
 const SearchPage = () => {
