@@ -6,7 +6,7 @@ import { Category, categorys } from "@/lib/categorys";
 import { getAllByCategory } from "@/lib/firebase/blogs";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import Link from "next/link";
-
+// Ui Page
 export const generateMetadata = async ({
   params,
 }: {
