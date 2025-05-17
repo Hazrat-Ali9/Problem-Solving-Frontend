@@ -5,6 +5,7 @@ export const metadata = {
   title: "Categories - Hazrat Ali Problem Solving",
   description: "Categories of Hazrat Ali Problem Solving",
 };
+// page tsx
 const page = () => {
   return (
     <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:px-0 px-4 lg:py-20 py-10">
