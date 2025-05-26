@@ -61,7 +61,7 @@ export const categorys: Category[] = [
     image: "/category/hackathon.jpeg",
   },
 ];
-// catagory Ts
+// Catagory Ts
 export interface Category {
   id: number;
   name: string;
