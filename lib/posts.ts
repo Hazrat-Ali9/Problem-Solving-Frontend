@@ -8,7 +8,7 @@ export interface PostType {
   tags?: string[];
   content: string;
 }
-
+// Post Type
 export const recentPosts = [
   {
     title: "Understanding Dynamic Programming",
