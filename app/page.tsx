@@ -6,7 +6,7 @@ import ArticleCard from "@/components/ArticleCard";
 import { getBlogs } from "@/lib/firebase/blogs";
 import { PostType } from "@/lib/posts";
 import SearchBar from "@/components/SearchBar";
-// page Tsx
+// Page Tsx
 async function App() {
   const blogs: PostType[] = await getBlogs(6);
   return (
