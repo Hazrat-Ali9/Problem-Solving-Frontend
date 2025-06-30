@@ -140,5 +140,5 @@ const Sidebar = () => {
     </div>
   );
 };
-// Sidebar 
+// Sidebar tsx
 export default Sidebar;
