@@ -6,19 +6,47 @@ export const metadata = {
 };
 const page = () => {
   const activements = [
-    "/achivement/1.jpeg",
-    "/achivement/2.jpeg",
-    "/achivement/3.jpeg",
-    "/achivement/4.jpeg",
-    "/achivement/5.jpeg",
-    "/achivement/6.jpeg",
-    "/achivement/7.jpeg",
-    "/achivement/8.jpeg",
-    "/achivement/9.jpeg",
-    "/achivement/10.jpeg",
-    "/achivement/12.jpeg",
-    "/achivement/13.jpeg",
-    "/achivement/11.jpeg",
+    "/achivement/Codechef.jpg",
+    "/achivement/HazratAliachieve.jpg",
+    "/achivement/Hazratphitron.jpeg",
+    "/achivement/github.jpg",
+    "/achivement/Leetcode.jpg",
+    "/achivement/HackerRank.jpg",
+    "/achivement/icpchazrat.jpg",
+    "/achivement/pherolevel.jpg",
+    "/achivement/achievement.jpg",
+    "/achivement/blackbelt.png",
+    "/achivement/phitroncampau.jpg",
+     "/achivement/batch5.jpg",
+    "/achivement/ambassdor.jpg",
+    "/achivement/hazrataliicpc.jpeg",
+    "/achivement/hazraticpc.jpeg",
+    "/achivement/icpcteam.jpeg",
+    "/achivement/teamicpc.jpeg",
+    "/achivement/icpccertificate.jpeg",
+    "/achivement/hackerrankproblemsolving.png",
+    "/achivement/javascript_basic.jpg",
+    "/achivement/psi.png",
+    "/achivement/python_basic_certificate.jpg",
+    "/achivement/java.jpeg",
+    "/achivement/contest.jpeg",
+    "/achivement/phitron.jpg",
+    "/achivement/webbootcamp.jpeg",
+    "/achivement/certificate.jpg",
+    "/achivement/webdevelopment.jpeg",
+    "/achivement/Programming_Foundation.jpg",
+    "/achivement/python.jpeg",
+    "/achivement/math_olympiad.jpg",
+     "/achivement/iusachieve.png",
+      "/achivement/jobplacement.jpeg",
+     "/achivement/managingdirector.jpeg",
+
+
+
+
+  
+
+    
   ];
   return (
     <div className="max-w-7xl mx-auto py-10 px-5">
