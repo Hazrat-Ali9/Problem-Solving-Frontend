@@ -24,6 +24,7 @@ const page = () => {
     "/achivement/icpcteam.jpeg",
     "/achivement/teamicpc.jpeg",
     "/achivement/icpccertificate.jpeg",
+    "/achivement/sql_basic.jpg",
     "/achivement/hackerrankproblemsolving.png",
     "/achivement/javascript_basic.jpg",
     "/achivement/psi.png",
