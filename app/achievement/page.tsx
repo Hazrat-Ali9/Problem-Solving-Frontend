@@ -18,6 +18,8 @@ const page = () => {
     "/achivement/blackbelt.png",
     "/achivement/phitroncampau.jpg",
      "/achivement/batch5.jpg",
+    "/achivement/hazrat_phitron.jpg",
+    "/achivement/hazrat_ali.jpg",
     "/achivement/ambassdor.jpg",
     "/achivement/hazrataliicpc.jpeg",
     "/achivement/hazraticpc.jpeg",
