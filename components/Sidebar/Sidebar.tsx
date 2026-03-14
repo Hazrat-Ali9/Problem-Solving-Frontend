@@ -77,7 +77,7 @@ const Sidebar = () => {
             />
           </a>
           <a
-            href="https://codeforces.com/profile/Hazrat_Ali9"
+            href="https://codeforces.com/profile/Hazrat-Fatema"
             target="_blank"
             className="text-gray-600 hover:text-blue-600"
           >
@@ -90,7 +90,7 @@ const Sidebar = () => {
             />
           </a>
           <a
-            href="https://www.codechef.com/users/hazratali9"
+            href="https://www.codechef.com/users/hazrat_ali9"
             target="_blank"
             className="text-gray-600 hover:text-blue-600"
           >
