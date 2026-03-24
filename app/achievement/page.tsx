@@ -43,6 +43,12 @@ const page = () => {
      "/achivement/iusachieve.png",
       "/achivement/jobplacement.jpeg",
      "/achivement/managingdirector.jpeg",
+      "/achivement/german.jpg",
+     "/achivement/phitron.png",
+     "/achivement/pherolevel2.png",
+      "/achivement/phero.png",
+    "/achivement/appointment_letter.jpg",
+      
 
 
 
