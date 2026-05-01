@@ -77,7 +77,7 @@ const Sidebar = () => {
             />
           </a>
           <a
-            href="https://codeforces.com/profile/Hazrat-Ali-MIT"
+            href="https://codeforces.com/profile/Hazrat-Ali-STREAK"
             target="_blank"
             className="text-gray-600 hover:text-blue-600"
           >
